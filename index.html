@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pikcha</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- Our Elm app will render this div -->
+	<div id="main"></div>
+	<script src="pikcha.js"></script>
+	<script>
+		Elm.Pikcha.init(
+			{
+				node: document.getElementById("main"),
+			});
+	</script>
+</body>
+</html>
